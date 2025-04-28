@@ -1,0 +1,44 @@
+.homepage-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+  
+  .homepage-box {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .homepage-header {
+    font-size: 24px;
+    font-weight: 800;
+    font-family: 'Manrope', sans-serif;
+    color: #333333;
+  }
+  
+  .homepage-text {
+    font-size: 16px;
+    color: #555555;
+  }
+  
+  .logout-button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #eb5e55;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .logout-button:hover {
+    background-color: #c8554f;
+  }
